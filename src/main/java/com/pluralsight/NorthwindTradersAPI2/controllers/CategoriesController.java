@@ -1,7 +1,6 @@
-package com.pluralsight.NorthwindTradersAPI2.CategoriesController;
+package com.pluralsight.NorthwindTradersAPI2.controllers;
 
 import com.pluralsight.NorthwindTradersAPI2.models.Category;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

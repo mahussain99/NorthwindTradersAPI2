@@ -1,4 +1,4 @@
-package com.pluralsight.NorthwindTradersAPI2.ProductsController;
+package com.pluralsight.NorthwindTradersAPI2.controllers;
 
 import com.pluralsight.NorthwindTradersAPI2.models.Product;
 import org.springframework.web.bind.annotation.*;
