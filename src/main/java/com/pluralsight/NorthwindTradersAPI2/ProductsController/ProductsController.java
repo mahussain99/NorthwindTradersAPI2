@@ -25,7 +25,7 @@ public class ProductsController {
         return productList;
     }
 
-    @RequestMapping(path = "/products/{productid}", method = RequestMethod.GET)
+    @RequestMapping(path = "/products/{productId}", method = RequestMethod.GET)
     public Product getProductById(@PathVariable int productId){
     for (Product product : productList) {
         if (product.getProductId() == productId){
